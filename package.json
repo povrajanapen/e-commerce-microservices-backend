@@ -2,6 +2,7 @@
   "name": "ecommerce-backend",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "user-service": "node services/user-service/index.js",
     "product-service": "node services/product-service/index.js",
