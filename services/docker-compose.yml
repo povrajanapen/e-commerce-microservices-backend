@@ -10,7 +10,7 @@ services:
 
   users:
     build:
-      context: ./users
+      context: ./user-service
     container_name: users_service
     ports:
       - "3001:3001"
@@ -21,7 +21,7 @@ services:
 
   products:
     build:
-      context: ./products
+      context: ./product-service
     container_name: products_service
     ports:
       - "3002:3002"
@@ -32,7 +32,7 @@ services:
 
   orders:
     build:
-      context: ./orders
+      context: ./order-service
     container_name: orders_service
     ports:
       - "3003:3003"
